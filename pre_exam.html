@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+<script src="pre_exam_http.js">
+  /*let yas = 23;
+  {
+    let yas = 35
+  }
+  alert(yas)*/
+
+  /*function test() {
+    if(true) {
+      var degisken = 35
+    } 
+    if(true) {
+      alert(`Degisken ${degisken}'tir`)
+    }
+  }
+  test()*/
+
+  /*var degisken = 'ybs'
+  var degisken = 'mis'
+
+  alert(degisken)*/
+
+  /*
+  deger = 'ybs';
+  alert(deger);
+  let deger;
+
+  // When var is used Hoisting happens in a sense that the variable will be 
+  //initiated at the start of the code, without us knowing
+  */
+
+  /*function guessParity () {
+    alert(arguments);
+    let toplam = 0;
+    for(let i=0; i<arguments.length;i++){
+      if (arguments[i]%2 === 0) {
+        toplam += 1
+      }
+    }
+    return `There a ${toplam} even numbers`
+  }
+
+  alert(guessParity(1,2,3,4,5,6))*/
+
+  /*
+  function guessParity (...args) {
+    alert(args);
+    let toplam = 0;
+    for(let i=0; i<args.length;i++){
+      if (args[i]%2 === 0) {
+        toplam += 1
+      }
+    }
+    return `There a ${toplam} even numbers`
+  }
+
+  alert(guessParity(1,2,3,4,5,6))
+  
+  The difference here is that it shows the actual arguemnts instead of their types
+
+  */
+
+
+  /*let guessParity = (...args) => {
+    alert(args);
+    let toplam = 0;
+    for(let i=0; i<args.length;i++){
+      if (args[i]%2 === 0) {
+        toplam += 1
+      }
+    }
+    return `There a ${toplam} even numbers`
+  }
+
+  alert(guessParity(1,2,3,4,5,6)) */
+
+  /*let greeting =  alert('Hey, there!')
+  
+  greeting()
+  */
+
+  /*let greeting = () =>  alert('Hey, there!')
+  
+  greeting()
+  */
+
+  /*let x = 0;
+
+  let check = (y) => {
+    let result = y > 0 ? 'positive' : y < 0 ? 'negative' : 'neither';
+    return result;
+  }
+
+  alert(check(x));
+  */
+
+  /*numbers = [1,2,3,4,5];
+
+  let mapped_number = numbers.map((x)=>{
+    return x*4;
+  })
+
+  alert(mapped_number)
+  
+  If we had used the concise version, explicitely returning would not have been necessary
+  */
+  /*
+  let sepet = [
+    {id:1,urun_adi:'telefon',adet:1,fiyat:100},
+    {id:2,urun_adi:'kalem',adet:4,fiyat:250},
+    {id:3,urun_adi:'kitap',adet:2,fiyat:150}
+  ];
+
+  let sepet_html = sepet.map((urun)=>{
+    return `<div>${urun.urun_adi}'in fiyati ${urun.adet*urun.fiyat}'tir</div>`;
+  })
+
+   
+  
+  alert(sepet_html);
+  
+  document.querySelector('body').innerHTML = sepet_html;
+  */
+  /*
+  let sepet = [
+  { fiyat: 10, adet: 2 }, // Item 1: 10 * 2 = 20
+  { fiyat: 20, adet: 1 }, // Item 2: 20 * 1 = 20
+  { fiyat: 5, adet: 3 }   // Item 3: 5 * 3 = 15
+  ];
+
+  let toplam = sepet.reduce((acc,urun)=>{
+    return acc + urun.fiyat*urun.adet
+  },0)
+  alert(toplam);
+  */
+  /*
+  try {
+    const sonuc = 10/ m;
+    alert(sonuc);
+  } catch(error) {
+    alert(`Error ${error}`)
+  } finally {
+    alert('GTS')
+  }
+  */
+
+
+  
+</script>
+</html> 
